@@ -16,6 +16,12 @@ public class Main {
         int column1 = kb2.nextInt();
         String a [][] = new String [3][3];
         a [row1][column1] = "X";
+        System.out.println("  " + a[row1][column1]+"  |       |     ");
+        System.out.println("___________________");
+        System.out.println("     |       |     ");
+        System.out.println("___________________");
+        System.out.println("     |       |     ");
+
 
         /*if (move1.equals("2 3"))
         {
